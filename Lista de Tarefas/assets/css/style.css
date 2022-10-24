@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'ROBOTO',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(4, 111, 252);
+}
+.content{
+    display: flex;
+    margin-top: 60px;
+    background: rgb(255, 255, 255);
+    min-height: 20vh;
+    max-width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-weight: bold;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts, .paragrafos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+h1.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.tarefaL {
+    margin-left: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+li{
+    margin-left: 20px;
+}
+
+input{
+    padding: 2px;
+}
+
+li button{
+    margin-top: 4px;
+    margin-left: 12px;
+}

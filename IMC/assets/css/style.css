@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'ROBOTO',sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body{
+    background: rgb(4, 111, 252);
+}
+.content{
+    margin-top: 40px;
+    background: rgb(255, 255, 255);
+    height: 90vh;
+    min-width: 500px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.content strong.title{   
+    font-size: 40px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.content .infos{
+    display: flex;
+    justify-items: stretch;
+    margin-left: 60px;
+}
+
+.content .infos .categorias{
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.content .infos .resultado{
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 166px;
+}
+
+.content .infos .title{
+    font-size: 35px;
+}
+
+.content .infos .text{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calcIMC{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.calcIMC .title{
+    font-size: 40px;
+    
+}
+
+.calcIMC input{
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;    
+    width: 58vh;
+    height: 30px;
+}
+
+.calcIMC .text{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calcIMC .textbutton{
+    font-size: 20px;
+}
+
+.calcIMC .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58.5vh;
+    height: 30px;
+    background: rgb(43, 110, 255);
+    padding: 12px;
+    margin-top: 12px;
+    opacity: 0;
+}
+
+.calcIMC .buttonsubmit{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61vh ;
+    height: 54px ;
+    background: rgb(43, 110, 255);
+    padding: 12px;
+    border: none;
+}
+
+.calcIMC .buttonsubmit:hover{
+    background-color: rgb(4, 70, 252);
+}
+    
+
+/* 
+
+rgb(255, 101, 101); azul
+rgb(43, 110, 255); vermelho
+
+*/
